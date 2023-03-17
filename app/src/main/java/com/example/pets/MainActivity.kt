@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         binding= ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val kapibara=Animals(getString(R.string.name_kapibara),getString(R.string.discription_kapibara),R.drawable.kapibara)
+        val kapibara=Animals(getString(R.string.name_kapibara),getString(R.string.discription_kapibara),R.drawable.kapibara1)
         val leleka=Animals(getString(R.string.name_leleka),getString(R.string.discription_leleka),R.drawable.leleka)
         val kin=Animals(getString(R.string.name_kin),getString(R.string.discription_kin),R.drawable.kin)
 
